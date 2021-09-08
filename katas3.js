@@ -17,8 +17,19 @@ function kata1() {
     for (let i = 1; i <= 25; i++) {
         resultado += i + ' '
     }
-    return resultado
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 1'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
+
+
 }
+
 
 
 function kata2() {
@@ -27,7 +38,18 @@ function kata2() {
 
     for (let i = 25; i > 0; i--) {
         resultado += i + ' '
-    } return resultado
+    }
+
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 2'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
+
 }
 
 function kata3() {
@@ -37,7 +59,15 @@ function kata3() {
     for (let i = (-1); i >= (-25); i--) {
         resultado += i + " "
     }
-    return resultado
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 3'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 
 
 }
@@ -50,7 +80,15 @@ function kata4() {
         resultado += i + " "
 
     }
-    return resultado
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 4'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata5() {
@@ -62,7 +100,16 @@ function kata5() {
         if (i % 2 != 0) {
             resultado += i + " "
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 5'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 
 }
 
@@ -75,7 +122,16 @@ function kata6() {
         if (i % 3 == 0) {
             resultado += i + " "
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 6'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata7() {
@@ -87,7 +143,16 @@ function kata7() {
         if (i % 7 == 0) {
             resultado += i + " "
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 7'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata8() {
@@ -99,7 +164,16 @@ function kata8() {
         if ((i % 3 == 0) || (i % 7 == 0)) {
             resultado += i + " "
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 8'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata9() {
@@ -111,7 +185,16 @@ function kata9() {
         if ((i % 2 != 0) & (i % 5 == 0)) {
             resultado += i + " "
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 9'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata10() {
@@ -121,7 +204,16 @@ function kata10() {
     for (let i = 0; i < sampleArray.length; i++) {
         resultado += sampleArray[i] + ' '
 
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 10'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata11() {
@@ -134,7 +226,16 @@ function kata11() {
             resultado.push(sampleArray[i])
         }
 
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 11'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata12() {
@@ -146,7 +247,16 @@ function kata12() {
         if (sampleArray[i] % 2 != 0) {
             resultado.push(sampleArray[i])
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 12'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata13() {
@@ -157,7 +267,16 @@ function kata13() {
         if (sampleArray[i] % 8 == 0) {
             resultado.push(sampleArray[i])
         }
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 13'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 
 }
 
@@ -166,7 +285,16 @@ function kata14() {
 
     for (let i = 0; i < sampleArray.length; i++) {
         resultado.push(sampleArray[i] * sampleArray[i])
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 14'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata15() {
@@ -175,7 +303,16 @@ function kata15() {
 
     for (let i = 1; i <= 20; i++) {
         resultado += i
-    } return resultado
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 15'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 }
 
 function kata16() {
@@ -184,40 +321,197 @@ function kata16() {
 
     for (let i = 0; i < sampleArray.length; i++) {
         resultado += sampleArray[i]
-    } return resultado
-} 
+    }
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 16'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
+}
 
 function kata17() {
     let resultado = Math.min.apply(null, sampleArray)
-    return resultado
-} 
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 17'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
+}
 
 function kata18() {
     let resultado = Math.max.apply(null, sampleArray)
-    return resultado
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    const newTitle = document.createElement('h4')
+    newTitle.innerText = 'Kata 18'
+    meuHome.appendChild(newSec)
+    newSec.appendChild(newTitle)
+    const textResul = document.createElement('p')
+    textResul.innerText = resultado
+    newSec.appendChild(textResul)
 
-} 
+}
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
  */
 
 function kataBonus1() {
-    // implemente o código do kata bonus 1 aqui
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    meuHome.appendChild(newSec)
+    let newh = document.createElement('h4')
+    newh.innerText = 'kata Bonus 1'
+    newSec.appendChild(newh)
+
+    for (let i = 0; i < 20; i++) {
+        const newdiv = document.createElement('div')
+        newSec.appendChild(newdiv)
+        newdiv.style.backgroundColor = 'gray'
+        newdiv.style.height = '20px'
+        newdiv.style.width = '100px'
+
+    }
+
+
 }
 
 function kataBonus2() {
-    // implemente o código do kata bonus 2 aqui
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    meuHome.appendChild(newSec)
+    let newh = document.createElement('h4')
+    newh.innerText = 'kata Bonus 2'
+    newSec.appendChild(newh)
+    larg = 100
+
+    for (let i = 0; i < 20; i++) {
+        const newdiv = document.createElement('div')
+        newSec.appendChild(newdiv)
+        newdiv.style.backgroundColor = 'gray'
+        newdiv.style.height = '20px'
+        newdiv.style.width = `${larg}px`
+        larg = larg + 5
+
+    }
 }
 
 function kataBonus3() {
-    // implemente o código do kata bonus 3 aqui
+    const meuHome = document.getElementById('Alpha')
+    const newSec = document.createElement('Section')
+    meuHome.appendChild(newSec)
+    let newh = document.createElement('h4')
+    newh.innerText = 'kata Bonus 3'
+    newSec.appendChild(newh)
+
+
+    for (let i = 0; i < 20; i++) {
+        const newdiv = document.createElement('div')
+        newSec.appendChild(newdiv)
+        newdiv.style.backgroundColor = 'gray'
+        newdiv.style.height = '20px'
+        newdiv.style.width = `${sampleArray[i]}px`
+
+
+    }
 }
 
 function kataBonus4() {
-    // implemente o código do kata bonus 4 aqui
+    let meuHome = document.getElementById('Alpha')
+    let newSec = document.createElement('Section')
+    meuHome.appendChild(newSec)
+    let newh = document.createElement('h4')
+    newh.innerText = 'kataBonus4'
+    newSec.appendChild(newh)
+    let verCinza = true
+
+
+    for (let i = 0; i < 20; i++) {
+
+        if (i % 2 == 0) {
+            const newdiv = document.createElement('div')
+            newSec.appendChild(newdiv)
+            newdiv.style.backgroundColor = 'gray'
+            newdiv.style.height = '20px'
+            newdiv.style.width = `${sampleArray[i]}px`
+        }
+        else {
+            const newdiv = document.createElement('div')
+            newSec.appendChild(newdiv)
+            newdiv.style.backgroundColor = 'red'
+            newdiv.style.height = '20px'
+            newdiv.style.width = `${sampleArray[i]}px`
+
+        }
+
+        
+    }
+
 }
 
+
+
 function kataBonus5() {
-    // implemente o código do kata bonus 5 aqui
+    let meuHome = document.getElementById('Alpha')
+    let newSec = document.createElement('Section')
+    meuHome.appendChild(newSec)
+    let newh = document.createElement('h4')
+    newh.innerText = 'kata Bonus 5'
+    newSec.appendChild(newh)
+    
+
+
+    for (let i = 0; i < sampleArray.length; i++) {
+
+        if (sampleArray[i] % 2 == 0) {
+            const newdiv = document.createElement('div')
+            newdiv.innerText = sampleArray[i]
+            newSec.appendChild(newdiv)
+            newdiv.style.backgroundColor = 'red'
+            newdiv.style.height = '20px'
+            newdiv.style.width = `${sampleArray[i]}px`
+        }
+        else {
+            const newdiv = document.createElement('div')
+            newdiv.innerText = sampleArray[i]
+            newSec.appendChild(newdiv)
+            newdiv.style.backgroundColor = 'Gray'
+            newdiv.style.height = '20px'
+            newdiv.style.width = `${sampleArray[i]}px`
+
+        }
+    
 }
+}
+
+kata1()
+kata2()
+kata3()
+kata4()
+kata5()
+kata6()
+kata7()
+kata8()
+kata9()
+kata10()
+kata11()
+kata12()
+kata13()
+kata14()
+kata15()
+kata16()
+kata17()
+kata18()
+kataBonus1()
+kataBonus2()
+kataBonus3()
+kataBonus4()
+kataBonus5()

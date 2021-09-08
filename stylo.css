@@ -1,0 +1,18 @@
+section{
+    margin-bottom: 20px;
+}
+
+div{
+    margin-bottom: 5px;
+
+}
+
+.red{
+    background-color: red;
+    height:20px;
+}
+
+.gray{
+    background-color:gray;
+    height:20px;
+}
